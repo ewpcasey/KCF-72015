@@ -35,26 +35,26 @@ public class MainActivity extends FragmentActivity {
 		final Button button_Sync = (Button) findViewById(R.id.button_Sync);
 		final Button button_P2P = (Button) findViewById(R.id.button_P2P);
 		
-//		button_Me.setOnClickListener(new View.OnClickListener(){
-//			public void onClick(View v){
-//				viewPager.setCurrentItem(1);
-//			}
-//		});
-//		button_MeU.setOnClickListener(new View.OnClickListener(){
-//			public void onClick(View v){
-//				viewPager.setCurrentItem(2);
-//			}
-//		});
-//		button_Sync.setOnClickListener(new View.OnClickListener(){
-//			public void onClick(View v){
-//				viewPager.setCurrentItem(3);
-//			}
-//		});
-//		button_P2P.setOnClickListener(new View.OnClickListener(){
-//			public void onClick(View v){
-//				viewPager.setCurrentItem(4);
-//			}
-//		});
+		button_Me.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				viewPager.setCurrentItem(1);
+			}
+		});
+		button_MeU.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				viewPager.setCurrentItem(2);
+			}
+		});
+		button_Sync.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				viewPager.setCurrentItem(3);
+			}
+		});
+		button_P2P.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				viewPager.setCurrentItem(4);
+			}
+		});
 	}
 	
 	@Override
